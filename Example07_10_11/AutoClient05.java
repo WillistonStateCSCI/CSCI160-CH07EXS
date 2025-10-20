@@ -2,7 +2,7 @@
    Anderson, Franceschi
 */
 
-public class AutoClient
+public class AutoClient05
 {
    public static void main( String [] args )
    {

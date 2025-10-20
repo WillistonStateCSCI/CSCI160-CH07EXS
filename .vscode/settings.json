@@ -1,0 +1,17 @@
+{
+    "java.project.sourcePaths": [
+        "Example07_01_02",
+        "Example07_03_04",
+        "Example07_05_06",
+        "Example07_07_08",
+        "Example07_10_11",
+        "Example07_12_13",
+        "Example07_14_15",
+        "Example07_16_17_18",
+        "Example07_19_20",
+        "Example07_21",
+        "Example07_22",
+        "Example07_23"
+    ],
+    "java.project.referencedLibraries": []
+}

@@ -1,32 +1,28 @@
-/* Auto class, version 7
+/* Auto class, version 6
    Anderson, Franceschi
 */
 
 import java.text.DecimalFormat;
 
-public class Auto
+public class Auto06
 {  
     // instance variables
     private String model;          //  model of auto
     private int milesDriven;       //  number of miles driven
     private double gallonsOfGas;   //  number of gallons of gas
 
-    private static int countAutos = 0;  // static class variable
-
-    // Constructors:
+    // Default constructor:
     //  initializes model to "unknown";
     //  milesDriven is auto-initialized to 0
     //        and gallonsOfGas to 0.0;
-    // increments countAutos
     public Auto( )
     {
        model = "unknown";
-       countAutos++;    // increment static count of Auto objects
     }
 
+    // Overloaded constructor:
     // allows client to set beginning values for
     // model, milesDriven, and gallonsOfGas;
-    // increments countAutos
     public Auto( String startModel,
                  int startMilesDriven,
                  double startGallonsOfGas )
@@ -34,7 +30,6 @@ public class Auto
        model = startModel;
        setMilesDriven( startMilesDriven );
        setGallonsOfGas( startGallonsOfGas );
-       countAutos++;    // increment static count of Auto objects
     }
 
     // Accessor Method:
@@ -58,18 +53,11 @@ public class Auto
        return gallonsOfGas;
     }
 
-    // Accessor Method:
-    // returns countAutos
-    public static int getCountAutos( )
-    {
-       return countAutos;
-    }
-
     // Mutator Method:
     // allows client to set model
-    public Auto setModel( String model )
+    public Auto setModel( String newModel )
     {
-        this.model = model;
+        this.model = newModel;
         return this;
     }
 
@@ -79,7 +67,7 @@ public class Auto
     public Auto setMilesDriven( int milesDriven )
     {
        if ( milesDriven >= 0 )
-         this.milesDriven = milesDriven;
+          this.milesDriven = milesDriven;
        return this;
     }
 
@@ -112,14 +100,14 @@ public class Auto
        return pricePerGallon * gallonsOfGas;
     }
 
-    // toString: returns a String with values of instance variable
+    // toString: returns a String of instance variable values
     @Override
     public String toString( )
     {
        DecimalFormat gallonsFormat = new DecimalFormat( "#0.00" );
        return "Model: " + model
-             + "\n miles driven: " + milesDriven
-             + "\n gallons of gas: "
+             + "; miles driven: " + milesDriven
+             + "; gallons of gas: "
              + gallonsFormat.format( gallonsOfGas );
     }
 
@@ -140,5 +128,5 @@ public class Auto
        }
        else
           return false;
-    }    
+    }
  }

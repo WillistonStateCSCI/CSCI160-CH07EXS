@@ -2,7 +2,7 @@
    Anderson, Franceschi
 */
 
-public class Auto
+public class Auto03
 {
     // instance variables
     private String model;          //  model of auto

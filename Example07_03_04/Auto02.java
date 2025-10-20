@@ -1,8 +1,8 @@
-/* Auto class, version 1
+/* Auto class, Version 2
    Anderson, Franceschi
 */
 
-public class Auto
+public class Auto02
 {
     // instance variables
     private String model;          //  model of auto
@@ -16,7 +16,7 @@ public class Auto
     public Auto( )
     {
        model = "unknown";
-    }    
+    }
 
     // Overloaded constructor:
     // allows client to set beginning values for
@@ -29,10 +29,31 @@ public class Auto
 
        // validate startMiles parameter
        if ( startMilesDriven >= 0 )
-           milesDriven = startMilesDriven;
+          milesDriven = startMilesDriven;
        
        // validate startGallonsOfGas parameter
        if ( startGallonsOfGas >= 0.0 )
-           gallonsOfGas = startGallonsOfGas;
+          gallonsOfGas = startGallonsOfGas;
+    }
+
+    // Accessor method:
+    // returns current value of model
+    public String getModel( )
+    {
+       return model;
+    }
+
+    // Accessor method:
+    // returns current value of milesDriven
+    public int getMilesDriven( )
+    {
+       return milesDriven;
+    }
+
+    // Accessor method:
+    //  returns current value of gallonsOfGas
+    public double getGallonsOfGas( )
+    {
+       return gallonsOfGas;
     }
 }

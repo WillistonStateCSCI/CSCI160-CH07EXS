@@ -5,7 +5,7 @@
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 
-public class AutoClient
+public class AutoClient04
 {
    public static void main( String [] args )
    {
