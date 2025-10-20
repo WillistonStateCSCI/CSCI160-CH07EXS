@@ -6,7 +6,7 @@ public class AutoClient03
 {
   public static void main( String [] args )
   {
-     Auto suv = new Auto( "Trailblazer", 7000, 437.5 );
+     Auto03 suv = new Auto03( "Trailblazer", 7000, 437.5 );
 
      // print initial values of instance variables
      System.out.println( "suv: model is " + suv.getModel( )

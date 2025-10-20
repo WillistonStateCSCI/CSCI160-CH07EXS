@@ -6,7 +6,7 @@ public class AutoClient05
 {
    public static void main( String [] args )
    {
-      Auto car = new Auto( );
+      Auto05 car = new Auto05( );
       System.out.println( "car is " + car );        
       car.setGallonsOfGas( 3.4 ).setMilesDriven( 67 );
 

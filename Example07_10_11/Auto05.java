@@ -13,7 +13,7 @@ public class Auto05
     //  initializes model to "unknown";
     //  milesDriven is auto-initialized to 0
     //        and gallonsOfGas to 0.0
-    public Auto( )
+    public Auto05( )
     {
        model = "unknown";
     }
@@ -21,7 +21,7 @@ public class Auto05
     // Overloaded constructor:
     // allows client to set beginning values for
     //   model, milesDriven, and gallonsOfGas.
-    public Auto( String startModel,
+    public Auto05( String startModel,
                  int startMilesDriven,
                  double startGallonsOfGas )
     {
@@ -53,7 +53,7 @@ public class Auto05
 
     // Mutator Method:
     // allows client to set model
-    public Auto setModel( String model )
+    public Auto05 setModel( String model )
     {
        this.model = model;
        return this;
@@ -62,7 +62,7 @@ public class Auto05
     // Mutator Method:
     // allows client to set value of milesDriven
     // if new value is not less than 0
-    public Auto setMilesDriven( int milesDriven )
+    public Auto05 setMilesDriven( int milesDriven )
     {
        if ( milesDriven >= 0 )
          this.milesDriven = milesDriven;
@@ -72,7 +72,7 @@ public class Auto05
     // Mutator Method:
     // allows client to set value of gallonsOfGas
     // if new value is not less than 0.0
-    public Auto setGallonsOfGas( double gallonsOfGas )
+    public Auto05 setGallonsOfGas( double gallonsOfGas )
     {
        System.out.println( "this is " + this );
        if ( gallonsOfGas >= 0.0 )

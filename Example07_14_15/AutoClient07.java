@@ -8,12 +8,12 @@ public class AutoClient07
    {
       System.out.println( "Before instantiating an Auto object:"
                           + "\nthe count of Auto objects is "
-                          + Auto.getCountAutos( ) );
+                          + Auto07.getCountAutos( ) );
 
-      Auto sporty = new Auto( "Spyder", 0, 0.0 );
+      Auto07 sporty = new Auto07( "Spyder", 0, 0.0 );
 
       System.out.println( "\nAfter instantiating an Auto object:"
                           + "\nthe count of Auto objects is "
-                          + Auto.getCountAutos( ) );
+                          + Auto07.getCountAutos( ) );
    }
 }

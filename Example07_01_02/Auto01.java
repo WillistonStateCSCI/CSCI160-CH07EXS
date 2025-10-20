@@ -13,7 +13,7 @@ public class Auto01
     //  initializes model to "unknown";
     //  milesDriven is auto-initialized to 0
     //        and gallonsOfGas to 0.0
-    public Auto( )
+    public Auto01( )
     {
        model = "unknown";
     }    
@@ -21,7 +21,7 @@ public class Auto01
     // Overloaded constructor:
     // allows client to set beginning values for
     //   model, milesDriven, and gallonsOfGas.
-    public Auto( String startModel,
+    public Auto01( String startModel,
                  int startMilesDriven,
                  double startGallonsOfGas )
     {

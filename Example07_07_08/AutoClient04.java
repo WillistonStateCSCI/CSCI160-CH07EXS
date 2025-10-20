@@ -9,7 +9,7 @@ public class AutoClient04
 {
    public static void main( String [] args )
    {
-     Auto suv = new Auto( "Trailblazer", 7000, 437.5 );
+     Auto04 suv = new Auto04( "Trailblazer", 7000, 437.5 );
 
      double mileage = suv.milesPerGallon( );
      DecimalFormat mpgFormat = new DecimalFormat( "0.0" );

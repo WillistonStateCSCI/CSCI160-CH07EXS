@@ -15,7 +15,7 @@ public class Auto06
     //  initializes model to "unknown";
     //  milesDriven is auto-initialized to 0
     //        and gallonsOfGas to 0.0;
-    public Auto( )
+    public Auto06( )
     {
        model = "unknown";
     }
@@ -23,7 +23,7 @@ public class Auto06
     // Overloaded constructor:
     // allows client to set beginning values for
     // model, milesDriven, and gallonsOfGas;
-    public Auto( String startModel,
+    public Auto06( String startModel,
                  int startMilesDriven,
                  double startGallonsOfGas )
     {
@@ -55,7 +55,7 @@ public class Auto06
 
     // Mutator Method:
     // allows client to set model
-    public Auto setModel( String newModel )
+    public Auto06 setModel( String newModel )
     {
         this.model = newModel;
         return this;
@@ -64,7 +64,7 @@ public class Auto06
     // Mutator Method:
     // allows client to set value of milesDriven
     // if new value is not less than 0
-    public Auto setMilesDriven( int milesDriven )
+    public Auto06 setMilesDriven( int milesDriven )
     {
        if ( milesDriven >= 0 )
           this.milesDriven = milesDriven;
@@ -74,7 +74,7 @@ public class Auto06
     // Mutator Method:
     // allows client to set value of gallonsOfGas
     // if new value is not less than 0.0
-    public Auto setGallonsOfGas( double gallonsOfGas )
+    public Auto06 setGallonsOfGas( double gallonsOfGas )
     {
        if ( gallonsOfGas >= 0.0 )
          this.gallonsOfGas = gallonsOfGas;
@@ -116,7 +116,7 @@ public class Auto06
     @Override
     public boolean equals( Object o )
     {
-       if ( o instanceof Auto objAuto )
+       if ( o instanceof Auto06 objAuto )
        {
 	       if ( model.equals( objAuto.model )
                && milesDriven == objAuto.milesDriven

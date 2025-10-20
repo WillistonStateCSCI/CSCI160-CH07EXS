@@ -18,7 +18,7 @@ public class Auto07
     //  milesDriven is auto-initialized to 0
     //        and gallonsOfGas to 0.0;
     // increments countAutos
-    public Auto( )
+    public Auto07( )
     {
        model = "unknown";
        countAutos++;    // increment static count of Auto objects
@@ -27,7 +27,7 @@ public class Auto07
     // allows client to set beginning values for
     // model, milesDriven, and gallonsOfGas;
     // increments countAutos
-    public Auto( String startModel,
+    public Auto07( String startModel,
                  int startMilesDriven,
                  double startGallonsOfGas )
     {
@@ -67,7 +67,7 @@ public class Auto07
 
     // Mutator Method:
     // allows client to set model
-    public Auto setModel( String model )
+    public Auto07 setModel( String model )
     {
         this.model = model;
         return this;
@@ -76,7 +76,7 @@ public class Auto07
     // Mutator Method:
     // allows client to set value of milesDriven
     // if new value is not less than 0
-    public Auto setMilesDriven( int milesDriven )
+    public Auto07 setMilesDriven( int milesDriven )
     {
        if ( milesDriven >= 0 )
          this.milesDriven = milesDriven;
@@ -86,7 +86,7 @@ public class Auto07
     // Mutator Method:
     // allows client to set value of gallonsOfGas
     // if new value is not less than 0.0
-    public Auto setGallonsOfGas( double gallonsOfGas )
+    public Auto07 setGallonsOfGas( double gallonsOfGas )
     {
        if ( gallonsOfGas >= 0.0 )
          this.gallonsOfGas = gallonsOfGas;
@@ -128,7 +128,7 @@ public class Auto07
     @Override
     public boolean equals( Object o )
     {
-       if ( o instanceof Auto objAuto )
+       if ( o instanceof Auto07 objAuto )
        {
 	       if ( model.equals( objAuto.model )
                && milesDriven == objAuto.milesDriven

@@ -6,10 +6,10 @@ public class AutoClient06
 {
    public static void main( String [] args )
    {
-      Auto sporty = new Auto( "Spyder", 0, 0.0 );
+      Auto06 sporty = new Auto06( "Spyder", 0, 0.0 );
       System.out.println( sporty.toString( ) );
 
-      Auto compact = new Auto( "Accent", 0, 0.0 );
+      Auto06 compact = new Auto06( "Accent", 0, 0.0 );
       System.out.println( );
       System.out.println( compact );
 
