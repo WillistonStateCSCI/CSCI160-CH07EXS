@@ -28,5 +28,6 @@ public class DailySpecials
        case SUN,SAT -> System.out.println( "Sorry, we're closed on "
                                  + day );
     }
+    scan.close();
   }
 }
