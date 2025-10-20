@@ -2,6 +2,15 @@
    Anderson, Franceschi
 */
 
+/*
+Because the sedan object was instantiated by calling the default constructor,
+its model is unknown and the miles driven and gallons of gas are set to
+default values. On the other hand, the suv object data reflects the values sent
+to the overloaded constructor when the suv object was instantiated.
+Thus, Version 2 of our Auto class lets our clients instantiate objects and get
+the values of the instance variables
+ */
+
 public class AutoClient02
 {
     public static void main( String [] args )
