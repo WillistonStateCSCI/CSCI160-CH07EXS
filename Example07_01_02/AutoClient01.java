@@ -7,13 +7,13 @@ public class AutoClient01
    public static void main( String [] args )
    {
       System.out.println( "Instantiate sedan" );
-      Auto sedan = new Auto( );
+      Auto01 sedan = new Auto01( );
 
       System.out.println( "\nInstantiate suv" );
-      Auto suv = new Auto( "Trailblazer", 7000, 437.5 );
+      Auto01 suv = new Auto01( "Trailblazer", 7000, 437.5 );
 
       System.out.println( "\nInstantiate mini" );
       // attempt to set invalid value for gallons of gas
-      Auto mini = new Auto( "Mini Cooper", 200, -1.0 );
+      Auto01 mini = new Auto01( "Mini Cooper", 200, -1.0 );
    }
 }

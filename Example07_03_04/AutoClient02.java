@@ -6,7 +6,7 @@ public class AutoClient02
 {
     public static void main( String [] args )
     {
-        Auto sedan = new Auto( );
+        Auto02 sedan = new Auto02( );
         String sedanModel = sedan.getModel( );
         int sedanMiles = sedan.getMilesDriven( );
         double sedanGallons = sedan.getGallonsOfGas( );
@@ -14,7 +14,7 @@ public class AutoClient02
                    + "\n miles driven is " + sedanMiles
                    + "\n gallons of gas is " + sedanGallons );
 
-        Auto suv = new Auto( "Trailblazer", 7000, 437.5 );
+        Auto02 suv = new Auto02( "Trailblazer", 7000, 437.5 );
         String suvModel = suv.getModel( );
         int suvMiles = suv.getMilesDriven( );
         double suvGallons = suv.getGallonsOfGas( );
