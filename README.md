@@ -20,4 +20,8 @@ Programming Examples From Java Illuminated Book by Anderson and Franceschi
 - AutoClient06.java - The sixth Auto Client implements these methods.  
 ## Examples 14 and 15  
 - Auto07.java - The seventh Auto Class makes use of the getCountAutos class to determine how many Autos have been instantiated.
-- AutoClient07.java - The seventh Auto Client implements this method. 6
+- AutoClient07.java - The seventh Auto Client implements this method.  
+## Examples 16, 17 and 18  
+- Algebra.java - Returns the greatest common denominator of two numbers.
+- Rational.java - Performs operations on fractions.
+- RationalClient.java - Implements all of the methods in Algebra.java and Rational.java.  
