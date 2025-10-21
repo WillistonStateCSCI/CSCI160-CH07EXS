@@ -25,3 +25,7 @@ Programming Examples From Java Illuminated Book by Anderson and Franceschi
 - Algebra.java - Returns the greatest common denominator of two numbers.
 - Rational.java - Performs operations on fractions.
 - RationalClient.java - Implements all of the methods in Algebra.java and Rational.java.  
+## Example 21  
+- How to use an enum to simplify using days of the week in a program.  
+## Example 22  
+- Using enums for days of the week to print daily specials for a restaurant.  

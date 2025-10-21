@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"<Unnamed>","c":"SimplifiedAuto","l":"getMilesDriven()"},{"p":"<Unnamed>","c":"SimplifiedAuto","l":"setMilesDriven(int)"},{"p":"<Unnamed>","c":"SimplifiedAuto","l":"SimplifiedAuto()","u":"%3Cinit%3E()"}];updateSearchResults();
